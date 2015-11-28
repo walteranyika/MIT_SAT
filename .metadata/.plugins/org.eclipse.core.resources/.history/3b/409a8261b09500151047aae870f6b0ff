@@ -1,0 +1,30 @@
+package com.walter;
+
+public class Student {
+ String names,email, course;
+ int year, balance;
+	public Student(String names, String email, String course, int year, int balance) {
+		super();
+		this.names = names;
+		this.email = email;
+		this.course = course;
+		this.year = year;
+		this.balance = balance;
+	}
+	public String getNames() {
+		return names;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public String getCourse() {
+		return course;
+	}
+	public int getYear() {
+		return year;
+	}
+	public int getBalance() {
+		return balance;
+	}
+    
+}

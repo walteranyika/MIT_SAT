@@ -1,0 +1,62 @@
+package com.walter;
+
+public class Lesson05 {
+	public static void main(String[] args) {
+		Account acc1 = new Account("Mali Mary", "ACC001", 2000);
+		Account acc2 = new Account("Juma John", "ACC002", 430);
+		// acc1,acc2 class instances
+		// variables of type Account
+		// objects
+		acc1.deposit(5000);
+		acc2.deposit(2500);
+		acc1.printDetails();
+		acc2.printDetails();
+		acc1.withdraw(4500);
+		acc2.withdraw(8000);
+		acc1.printDetails();
+		acc2.printDetails();
+		double bal = acc1.getBalance();
+		System.out.println(bal);
+		
+		//Lesson06
+		//Create a class Student
+		//names, email,course, year of birth,
+		//fee balance
+		//constructor
+		//getters
+		//calculate age
+		//payfee
+		//print details
+		//test it
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+
+}

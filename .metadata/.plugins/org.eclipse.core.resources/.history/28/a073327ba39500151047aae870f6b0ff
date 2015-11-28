@@ -1,0 +1,8 @@
+package com.walter;
+
+public class Account {
+   String name;
+   String number;
+   double balance;
+   
+}

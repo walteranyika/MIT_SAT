@@ -1,0 +1,15 @@
+package com.walter;
+
+public class Account {
+   String name;
+   String number;
+   double balance;
+	public Account(String name, String number, double balance) {
+		super();
+		this.name = name;
+		this.number = number;
+		this.balance = balance;
+	}
+	
+    
+}
